@@ -41,9 +41,7 @@ export default function Hero() {
         style={{ animationDelay: '0.65s' }}
       >
         CS student at Carleton University building real-world systems — from
-        test automation pipelines at Ford to AI-powered tooling and automation, teaching the
-        next wave of developers along the way.
-      </p>
+        test automation pipelines at Ford to AI-powered tooling and automation, I am interested in making life easier
 
       <div
         className="animate-fade-up mt-10 flex gap-4 flex-wrap"
