@@ -41,7 +41,7 @@ export default function Hero() {
         style={{ animationDelay: '0.65s' }}
       >
         CS student at Carleton University building real-world systems — from
-        test automation pipelines at Ford to AI-powered tooling, teaching the
+        test automation pipelines at Ford to AI-powered tooling and automation, teaching the
         next wave of developers along the way.
       </p>
 

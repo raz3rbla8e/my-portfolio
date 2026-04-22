@@ -2,28 +2,28 @@ import Reveal from './ScrollReveal'
 
 const timeline = [
   {
-    date: '2025 – 2026',
+    date: 'September 2025 – August 2026',
     company: 'Ford Motor Company',
     role: 'Test Automation Intern — FNV Stability Team',
     desc: 'Built Jenkins-integrated remote automation pipelines for ECU stability testing. Developed token generation scripts and integrated AI tooling to streamline repetitive QA workflows. Shipped real improvements to how the team tested vehicle network firmware.',
     dotColor: 'border-accent',
   },
   {
-    date: '2024 – 2025',
+    date: 'May 2025 – August 2025',
+    company: 'Wizr.ai',
+    role: 'Software Engineering Intern',
+    desc: "Worked on AI-powered B2B SaaS tooling, contributing to backend services and helping shape the product's ML-assisted features during an early growth phase.",
+    dotColor: 'border-teal',
+  },  
+  {
+    date: 'September 2024 – December 2024',
     company: 'Carleton University',
     role: 'Teaching Assistant',
     desc: "Supported undergraduate CS courses — running labs, holding office hours, and helping students build intuition for algorithms and software design. One of the more rewarding things I've done.",
     dotColor: 'border-teal',
   },
   {
-    date: '2024 – 2025',
-    company: 'Wizr.ai',
-    role: 'Software Engineering Intern',
-    desc: "Worked on AI-powered B2B SaaS tooling, contributing to backend services and helping shape the product's ML-assisted features during an early growth phase.",
-    dotColor: 'border-teal',
-  },
-  {
-    date: '2022 – 2025',
+    date: 'September 2022 – April 2027',
     company: 'Carleton University',
     role: 'B.CS — AI/ML Concentration',
     desc: 'Coursework spanning machine learning, algorithms, embedded systems, and software engineering. Building a strong foundation while shipping real-world projects on the side.',
