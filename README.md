@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# My Portfolio Site
+
+This project is a personal portfolio website built with Next.js and Tailwind CSS. I created it to showcase my skills, projects, and journey while also learning how to integrate AI into my workflow.
+
+## Why I Built This
+
+- To present a clean, modern portfolio for my web development work.
+- To practice building a full frontend site using Next.js and TypeScript.
+- To learn how to leverage AI tools, especially Claude Code, to automate parts of my development process.
+
+## Features
+
+- Responsive landing page and project sections
+- About, skills, journey, and contact components
+- Simple, maintainable component structure in `src/components`
+- Tailwind CSS for fast styling and responsive layouts
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies and start the local development server:
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view the site in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/` - main Next.js app router files
+- `src/components/` - reusable React components for the site
+- `public/` - static assets and images
+- `styles/` or `app/globals.css` - global styles and Tailwind configuration
 
-## Learn More
+## AI Workflow
 
-To learn more about Next.js, take a look at the following resources:
+I used this project as a way to explore AI-assisted development, especially with Claude Code. That includes:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- generating design and layout ideas
+- refining copy and README content
+- automating repetitive updates
+- testing prompts and developer workflows
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Notes
 
-## Deploy on Vercel
+This project is a living portfolio. It is meant to grow over time with new demos, updated skills, and improved AI-driven workflows.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This repository is for personal use and learning. Feel free to adapt the ideas as you build your own portfolio.
+loying) for more details.
