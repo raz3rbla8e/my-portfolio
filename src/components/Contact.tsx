@@ -8,8 +8,8 @@ const contactLinks = [
   },
   {
     icon: 'in',
-    label: 'linkedin.com/in/shrivaibhav',
-    href: 'https://linkedin.com/in/shrivaibhav',
+    label: 'https://linkedin.com/in/shri-mahesh/',
+    href: 'https://linkedin.com/in/shri-mahesh/',
   },
   {
     icon: '⌥',

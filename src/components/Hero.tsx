@@ -24,9 +24,9 @@ export default function Hero() {
         className="animate-fade-up font-serif text-[clamp(4rem,10vw,9rem)] font-normal leading-[0.9] tracking-[-0.02em] mb-[0.15em]"
         style={{ animationDelay: '0.35s' }}
       >
-        Shri
+        Shri Vaibhav
         <br />
-        <em className="italic text-accent">venkat.</em>
+        <em className="italic text-accent">Mahesh Kumar.</em>
       </h1>
 
       <p
