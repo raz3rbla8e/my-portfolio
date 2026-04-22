@@ -3,7 +3,7 @@ import Reveal from './ScrollReveal'
 const stats = [
   { number: '4th', label: 'Year CS @ Carleton' },
   { number: '2×', label: 'Co-op intern' },
-  { number: 'TA', label: 'Teaching Assistant' },
+  { number: 'Ford', label: 'Current Internship' },
   { number: 'AI/ML', label: 'Concentration' },
 ]
 
