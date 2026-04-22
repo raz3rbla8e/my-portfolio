@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react'
 
 const links = ['About', 'Skills', 'Journey', 'Contact']
 
+const RESUME_URL = 'https://drive.google.com/file/d/1JUMe9CrlDAlWjx9qHy5iZGKoqYGL4Gse/view?usp=sharing'
+
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
 
@@ -24,7 +26,7 @@ export default function Nav() {
       <div className="font-serif italic text-accent text-[1.15rem] tracking-[0.02em]">
         Shri.
       </div>
-      <ul className="flex gap-8 list-none max-sm:hidden">
+      <ul className="flex items-center gap-8 list-none max-sm:hidden">
         {links.map((item) => (
           <li key={item}>
             <a
@@ -35,6 +37,16 @@ export default function Nav() {
             </a>
           </li>
         ))}
+        <li>
+          <a
+            href={RESUME_URL}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-[0.45rem] border border-accent text-accent text-[11px] tracking-[0.14em] uppercase no-underline rounded-[2px] transition-all duration-200 hover:bg-accent hover:text-canvas"
+          >
+            Resume
+          </a>
+        </li>
       </ul>
     </nav>
   )
